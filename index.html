@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Trang Web Cây Xanh</title>
+    </head>
+    <body>
+        <!--==================== tiêu Đề ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <i class="ri-leaf-line nav__logo-icon"></i> Plantex
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Trang Chủ</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">Về Chúng Tôi</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">Sản Phẩm</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#faqs" class="nav__link">Câu Hỏi Thường Gặp</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">Liên Hệ</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <div class="nav__btns">
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== Trang Chủ ====================-->
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <img src="assets/img/home.png" alt="" class="home__img">
+
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            Cây xanh sẽ làm cho <br> cuộc sống của bạn tốt hơn
+                        </h1>
+                        <p class="home__description">
+                            Tạo ra thiết kế cây trồng đáng kinh ngạc cho văn phòng hoặc nơi làm việc của bạn. 
+                            Thêm sự mới mẻ cho những ý tưởng mới của bạn.
+                        </p>
+                        <a href="#about" class="button button--flex">
+                            Khám Phá <i class="ri-arrow-right-down-line button__icon"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__social">
+                        <span class="home__social-follow">Theo Dõi Chúng Tôi</span>
+
+                        <div class="home__social-links">
+                            <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== Khuyên Dùng ====================-->
+            <section class="about section container" id="about">
+                <div class="about__container grid">
+                    <img src="assets/img/about.png" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <h2 class="section__title about__title">
+                            Chúng tôi thực sự là ai và <br> tại sao chọn chúng tôi
+                        </h2>
+
+                        <p class="about__description">
+                            Chúng tôi có hơn 4000 đánh giá khách quan và khách hàng luôn tin tưởng vào quy trình sản xuất và dịch vụ giao hàng tại nhà máy của chúng tôi
+                        </p>
+
+                        <div class="about__details">
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Chúng tôi luôn giao hàng đúng hẹn.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Chúng tôi cung cấp cho bạn các hướng dẫn để bảo vệ và chăm sóc cây trồng của bạn.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Chúng tôi luôn đến để kiểm tra sau khi bán.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Đảm bảo hoàn lại tiền 100%.
+                            </p>
+                        </div>
+
+                        <a href="#" class="button--link button--flex">
+                            Mua Ngay <i class="ri-arrow-right-down-line button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== Trồng Cây ====================-->
+            <section class="steps section container">
+                <div class="steps__bg">
+                    <h2 class="section__title-center steps__title">
+                        Các bước để bắt đầu <br> trồng cây đúng cách
+                    </h2>
+
+                    <div class="steps__container grid">
+                        <div class="steps__card">
+                            <div class="steps__card-number">01</div>
+                            <h3 class="steps__card-title">Chọn cây</h3>
+                            <p class="steps__card-description">
+                                Chúng tôi có nhiều loại cây bạn có thể lựa chọn.
+                            </p>
+                        </div>
+
+                        <div class="steps__card">
+                            <div class="steps__card-number">02</div>
+                            <h3 class="steps__card-title">Đặt hàng</h3>
+                            <p class="steps__card-description">
+                                Sau khi bạn đặt hàng, chúng tôi chuyển sang bước tiếp theo là vận chuyển.
+                            </p>
+                        </div>
+
+                        <div class="steps__card">
+                            <div class="steps__card-number">03</div>
+                            <h3 class="steps__card-title">Nhận giao cây</h3>
+                            <p class="steps__card-description">
+                                Quá trình giao hàng của chúng tôi rất dễ dàng, bạn sẽ nhận được cây trực tiếp tại nhà.
+                                <div class="steps__card">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== Sản Phẩm ====================-->
+            <section class="product section container" id="products">
+                <h2 class="section__title-center">
+                    Kiểm tra <br> sản phẩm của chúng tôi
+                </h2>
+
+                <p class="product__description">
+                    Dưới đây là một số cây được chọn lọc từ phòng trưng bày của chúng tôi, tất cả đều có hình dáng đẹp và tuổi thọ cao. Hãy mua và tận hưởng chất lượng tốt nhất.
+                </p>
+
+                <div class="product__container grid">
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/product1.png" alt="" class="product__img">
+
+                        <h3 class="product__title">cây xương rồng cành</h3>
+                        <span class="product__price">300.000 vnđ</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/product2.png" alt="" class="product__img">
+
+                        <h3 class="product__title">cây xương rồng đơn</h3>
+                        <span class="product__price">250.000 vnđ</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/product3.png" alt="" class="product__img">
+
+                        <h3 class="product__title">cây lô hội</h3>
+                        <span class="product__price">150.000 vnđ</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/product4.png" alt="" class="product__img">
+
+                        <h3 class="product__title">cây sen đá</h3>
+                        <span class="product__price">70.000 vnđ</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/product5.png" alt="" class="product__img">
+
+                        <h3 class="product__title">cây chi thùa</h3>
+                        <span class="product__price">100.000 vnđ</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/product6.png" alt="" class="product__img">
+
+                        <h3 class="product__title">cây xanh</h3>
+                        <span class="product__price">400.000 vnđ</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+                </div>
+            </section>
+
+            <!--==================== Câu Hỏi ====================-->
+            <section class="questions section" id="faqs">
+                <h2 class="section__title-center questions__title container">
+                    Một số câu hỏi phổ biến <br> thường được hỏi
+                </h2>
+
+                <div class="questions__container container grid">
+                    <div class="questions__group">
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Hoa của tôi đang rụng hoặc chết?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Thực vật là cách dễ dàng để bổ sung năng lượng màu sắc và biến đổi không gian của bạn nhưng hành tinh nào là dành cho bạn. Lựa chọn cây trồng phù hợp.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Nguyên nhân khiến lá trở nên nhợt nhạt?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    do tưới quá nhiều nước, thiếu ánh sáng mặt trời tự nhiên, vàng lá do thừa phân, thiếu chất dinh dưỡng.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Nguyên nhân gây ra lá giòn màu nâu?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Do thiếu nước, thiếu chất dinh dưỡng, bệnh tật hoặc bị tác động bởi côn trùng.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="questions__group">
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Làm thế nào để tôi chọn một cây tốt?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Dựa vào tình trạng của cây, không có dấu hiệu bệnh tật, lá xanh tươi, không bị khô hoặc hỏng, nhìn ư mắt.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Làm thế nào để thay đổi chậu?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    B1: Chuẩn bị chậu mới. <br>
+                                    B2: Chuẩn bị Cây. <br>
+                                    B3: Thêm đất mới. <br>
+                                    B4: Chuyển cây và tưới nước.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Tại sao muỗi bay quanh cây của tôi?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Do mùi hương của cây và ánh sáng của cây thu hút sự chú ý của muỗi, và môi trường xung quanh ẩm thấp.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== CONTACT ====================-->
+            <section class="contact section container" id="contact">                
+                <div class="contact__container grid">
+                    <div class="contact__box">
+                        <h2 class="section__title">
+                            Hãy liên hệ với chúng tôi ngay hôm nay <br> thông qua bất kỳ  <br> thông tin nào được cung cấp
+                        </h2>
+
+                        <div class="contact__data">
+                            <div class="contact__information">
+                                <h3 class="contact__subtitle">Gọi cho chúng tôi để được tư vấn ngay lập tức</h3>
+                                <span class="contact__description">
+                                    <i class="ri-phone-line contact__icon"></i>
+                                    +8439 888 777
+                                </span>
+                            </div>
+
+                            <div class="contact__information">
+                                <h3 class="contact__subtitle">Viết email cho chúng tôi</h3>
+                                <span class="contact__description">
+                                    <i class="ri-mail-line contact__icon"></i>
+                                    nhom6@email.com
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__inputs">
+                            <div class="contact__content">
+                                <input type="email" placeholder=" " class="contact__input">
+                                <label for="" class="contact__label">Email</label>
+                            </div>
+
+                            <div class="contact__content">
+                                <input type="text" placeholder=" " class="contact__input">
+                                <label for="" class="contact__label">Subject</label>
+                            </div>
+
+                            <div class="contact__content contact__area">
+                                <textarea name="message" placeholder=" " class="contact__input"></textarea>                              
+                                <label for="" class="contact__label">Message</label>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex">
+                            Gửi
+                            <i class="ri-arrow-right-up-line button__icon"></i>
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">
+                        <i class="ri-leaf-line footer__logo-icon"></i> Plantex
+                    </a>
+
+                    <h3 class="footer__title">
+                        Theo dõi bản tin của chúng tôi <br> để cập nhật
+                    </h3>
+
+                    <div class="footer__subscribe">
+                        <input type="email" placeholder="Enter your email" class="footer__input">
+
+                        <button class="button button--flex footer__button">
+                           Gửi
+                            <i class="ri-arrow-right-up-line button__icon"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Địa Chỉ</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">1254 - Lê Duẩn</li>
+                        <li class="footer__information">124 - Nguyễn Văn Cừ</li>
+                        <li class="footer__information">54 - Cù Chính Lan</li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Liên Hệ</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">+8439 888 777</li>
+                        
+                        <div class="footer__social">
+                            <a href="https://www.facebook.com/" class="footer__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" class="footer__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="https://twitter.com/" class="footer__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">
+                        Thẻ Ngân Hàng 
+                    </h3>
+
+                    <div class="footer__cards">
+                        <img src="assets/img/card1.png" alt="" class="footer__card">
+                        <img src="assets/img/card2.png" alt="" class="footer__card">
+                        <img src="assets/img/card3.png" alt="" class="footer__card">
+                        <img src="assets/img/card4.png" alt="" class="footer__card">
+                    </div>
+                </div>
+            </div>
+            <br>
+        </footer>
+        
+       
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class="ri-arrow-up-fill scrollup__icon"></i>
+        </a>
+        <script src="assets/js/scrollreveal.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
